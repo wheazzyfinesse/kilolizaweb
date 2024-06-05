@@ -12,17 +12,17 @@ export default function HomePage() {
 			<header className={styles.header}>
 				<h1 className={styles.title}>KILO LIZA MART</h1>
 				<h2 className={styles.subTitle}>
-					Shop for your quality and affordable Devon King's Vegetable Oil
+					Shop for your quality and affordable Devon King&apos;s Vegetable Oil
 				</h2>
 				<p className={styles.details}>
-					Devon King’s cooking oil is a quality cooking oil that has been
+					Devon King&apos;s cooking oil is a quality cooking oil that has been
 					imported into Nigeria for over half a century and has over the years
 					been a trusted brand for consumers. While staying true to its
 					heritage, PZ Wilmar has added more value to Devon King’s oil as it is
 					now locally produced in Nigeria.
 				</p>
 				<p className={styles.details}>
-					We sell all Devon King's Vegetable Oil in wholesales and retails
+					We sell all Devon King&apos;s Vegetable Oil in wholesales and retails
 					<br />
 					Visit our shop page to view our stocks and start making your orders
 				</p>
