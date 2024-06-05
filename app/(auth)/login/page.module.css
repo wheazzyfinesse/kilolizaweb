@@ -58,7 +58,6 @@
 .button{
     height: 40px;
     background: linear-gradient(90deg,  rgb(93, 204, 255),rgb(0, 12, 249), rgb(93, 204, 255));
-    background-color: blue;
     color: var(--white);
     font-size: var(--s-size);
     border: none;
