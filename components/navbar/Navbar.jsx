@@ -4,11 +4,14 @@ import Link from "next/link";
 import { CiHeart, CiUser } from "react-icons/ci";
 import { IoIosLogOut } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
+import logo from "../../public/logo.png";
+import Image from "next/image";
+
 const Navbar = () => {
 	return (
 		<header className={styles.header}>
 			<Link href="/" className={styles.logo}>
-				Kilo liza mart
+				<Image className={styles.logo} src={logo} alt="King's oil logo" />
 			</Link>
 			<nav className={styles.navbar}>
 				<ul>

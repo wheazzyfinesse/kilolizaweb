@@ -1,14 +1,13 @@
 .header{
-	width: 90%;
+	width: 100vw;
 	margin: auto;
-	margin-top: 5px;;
 	height: 50px;
 	background-color: var(--bg-color);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	border-radius: var(--s-space);
-	padding: var(--s-space);
+	padding: var(--m-space);
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -18,9 +17,8 @@
 }
 
 .logo{
-    font-size: var(--s-size);
-    text-decoration: none;
-	color: var(--black);
+    width: 100px;
+    height: auto;
 }
 
 .logo:hover{
@@ -50,6 +48,7 @@
 .menuItem:hover{
 	background-color: var(--fg-color);
 	background-color: rgba(3, 136, 252, 0.412);
+	padding: var(--n-space);
 
 	color: var(--white);
 }
@@ -58,7 +57,6 @@
 	height: 30px;
 	padding: 5px;
 	color: var(--text-color);
-	
 	margin: 0 var(--s-space);
 	align-items: center;
 }
@@ -67,9 +65,10 @@
 	border-radius: 100%;
 	color: var(--white);
 }
+
 .auth_link{
 	position: relative;
-	display: inline-block
+	display: inline-block;
 }
 .cartQuantity{
 	position: absolute;
