@@ -37,7 +37,7 @@ function LoginPage() {
 					</form>
 
 					<div className={styles.links}>
-						<span>Don't have an account? </span>
+						<span>Dont have an account? </span>
 						<a href="/register">Register</a>
 					</div>
 					<div className={styles.links}>
